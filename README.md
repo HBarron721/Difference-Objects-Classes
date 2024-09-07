@@ -8,4 +8,4 @@ An object is an individual instance of a class, embodying the defined structure 
 
 Although they are closely related, there are some conceptual differences. A class is a definition, a set of rules that doesn’t engage directly with the program’s runtime, whereas an object is an instance that interacts within the program. Furthermore, classes serve as blueprints—they outline possible states and behaviors but aren’t specific. In contrast, objects are concrete, implementing these blueprints with defined values and actions. Lastly, a class is reusable and can be called to create numerous, unique objects. Through the appropriate use of classes and objects, developers can create easy to understand code that allows the ability to update programs that consist of a large collection of methods.
 
-### --Hector B.
+--Hector B.
