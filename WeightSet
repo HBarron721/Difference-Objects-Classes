@@ -1,0 +1,17 @@
+public class WeightSet {    //A class describes the structure by acting as a blueprint or template from which objects are created.
+    private String weightType;  // Specific property values such as "dumbbell", "kettlebell", or "barbell"
+    private double weightSize;  // Weight in pounds
+    private String material;    // Specific property values such as "iron", "rubber", or "sand-filled
+
+    // Constructor for the WeightSet class
+    public WeightSet(String type, double size, String material) {
+        this.weightType = type;
+        this.weightSize = size;
+        this.material = material;
+    }
+
+    // Method describes the behavior of the class
+    public void performExercise(String exercise) {
+        System.out.println("Perform 10 " + exercise + " with " + this.weightSize + " lbs using a " + this.weightType + " made of " + this.material);
+    }
+}
