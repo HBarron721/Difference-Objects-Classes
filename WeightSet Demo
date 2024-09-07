@@ -1,0 +1,12 @@
+public class WeightSetDemo {    //Object is an individual instance of a class, embodying the defined structure with specific values.
+    public static void main(String[] args) {
+
+        // Object "dumbbell" is created with its specific property values.
+        WeightSet dumbbell = new WeightSet("dumbbell", 50, "Rubber");
+        dumbbell.performExercise("Dumbbell Curls");
+
+        // Object "kettlebell" is created with its specific property values.
+        WeightSet kettlebell = new WeightSet("kettlebell", 50, "100% Iron");
+        kettlebell.performExercise("Kettlebell Swings");
+    }
+}
