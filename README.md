@@ -1,2 +1,11 @@
 # Difference-Objects-Classes
-CSC272 - Discussion 1
+## CSC272 - Discussion 1
+Objects and Classes are fundamental concepts in Java and within object-oriented programming (OOP). The concepts of “classes” and “objects” are essential in utilizing languages like Java, C++, or Python to their full capabilities. Although closely related, both concepts serve distinct roles providing solid structural and operational foundations of applications.
+
+Classes act as the blueprints or templates for the creation of objects. They define the structure (properties) and behaviors (methods) that objects will possess; however, a class does not represent an individual instance—sometimes referred to as a real-world entity. For example, consider a class named WeightSet which might include properties such as weight type, weight size, and material, along with methods like performExercise() which could simulate different workouts such as squats or presses depending on the weight type. The class provides the blueprint for a weight set in terms of capabilities and attributes but does not represent a particular weight set—an individual instance.
+
+An object is an individual instance of a class, embodying the defined structure with specific values. Using the WeightSet class example, an object could be a specific set of weights like a 20 lb dumbbell. This dumbbell object would have its own values for properties defined by the WeightSet class, such as being made of rubber-coated iron and weighing 20 lbs, ready to be used in exercises specified by the class methods.
+
+Although they are closely related, there are some conceptual differences. A class is a definition, a set of rules that doesn’t engage directly with the program’s runtime, whereas an object is an instance that interacts within the program. Furthermore, classes serve as blueprints—they outline possible states and behaviors but aren’t specific. In contrast, objects are concrete, implementing these blueprints with defined values and actions. Lastly, a class is reusable and can be called to create numerous, unique objects. Through the appropriate use of classes and objects, developers can create easy to understand code that allows the ability to update programs that consist of a large collection of methods.
+
+### --Hector B.
